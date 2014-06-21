@@ -1,0 +1,57 @@
+Running: /mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/TestTop_1_isim_beh.exe" -prj "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/TestTop_1_beh.prj" "work.TestTop_1" "work.glbl" 
+ISim P.28xd (signature 0x54af6ca1)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/IMem.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/DMem.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/ZeroExtendBlock.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/TwoBitMux.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/SignExtendBlock.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/RegFileOutAluInReg.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/ProgramCounter.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/OneBitMux.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/new_nbit_register_file.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/Controller.v" into library work
+WARNING:HDLCompiler:31 - "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/Controller.v" Line 33: <JALCTL> is already declared.
+WARNING:HDLCompiler:770 - "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/Controller.v" Line 33: Second declaration of JALCTL ignored
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/BreakUpInstr.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/BranchLogic.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/ALUReg.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/ALUControl.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/ALU.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/add_one.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/Top.v" into library work
+Analyzing Verilog file "/ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/TestTop_1.v" into library work
+Analyzing Verilog file "/mnt/support/software/linux/all/x86_64/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94156 KB
+Fuse CPU Usage: 1230 ms
+Compiling module IMem
+Compiling module ProgramCounter
+Compiling module DMem
+Compiling module BreakUpInstr
+Compiling module OneBitMux
+Compiling module OneBitMux(inputWidth=5)
+Compiling module Controller
+Compiling module new_nbit_register_file
+Compiling module RegFileOutAluInReg
+Compiling module ZeroExtendBlock
+Compiling module add_one
+Compiling module SignExtendBlock
+Compiling module TwoBitMux
+Compiling module ALUControl
+Compiling module ALU
+Compiling module ALUReg
+Compiling module BranchLogic
+Compiling module Top
+Compiling module TestTop_1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable /ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/TestTop_1_isim_beh.exe
+Fuse Memory Usage: 390440 KB
+Fuse CPU Usage: 1280 ms
+GCC CPU Usage: 290 ms

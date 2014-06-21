@@ -1,0 +1,36 @@
+ISim log file
+Running: /ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/TestTop_1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /ad/eng/users/k/m/kmannix/EC 413/Project_Ver2/TestTop_1_isim_beh.wdb 
+ISim P.28xd (signature 0x54af6ca1)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.28xd (signature 0x54af6ca1)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.28xd (signature 0x54af6ca1)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.28xd (signature 0x54af6ca1)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.28xd (signature 0x54af6ca1)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+ISim P.28xd (signature 0x54af6ca1)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# exit 0
